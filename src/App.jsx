@@ -1,16 +1,13 @@
 import './App.css'
-
+import Home from './pages/Home';
+import Login from './pages/login';
+import AppRoutes from './routes/AppRoutes'
 function App() {
-  return (
-   <div class="w-full h-screen  bg-orange-500 flex items-center justify-center">
-  <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center">
-    Incedo Inc
-  </h1>
-</div>
-
-
-
-  );
+  return(
+  <>
+    <AppRoutes />
+  </>
+  )
 }
 
 export default App;
